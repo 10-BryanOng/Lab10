@@ -93,7 +93,7 @@ namespace Tests
         //Square Root
         public void TestSQRT()
         {
-            result = Calculator.CalculatePair(0, 100, "√");
+            result = Calculator.CalculatePair(100, 0, "√");
             Assert.AreEqual(result, 10);
         }
         [UnityTest]
@@ -101,7 +101,7 @@ namespace Tests
         {
             yield return null;
 
-            result = Calculator.CalculatePair(0, 100, "√");
+            result = Calculator.CalculatePair(100, 0, "√");
             Assert.AreEqual(result, 10);
         }
     }

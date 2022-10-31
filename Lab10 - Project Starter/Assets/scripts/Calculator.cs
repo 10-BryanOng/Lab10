@@ -39,7 +39,7 @@ public class Calculator : MonoBehaviour {
 				case "/":
 				case "*":
 				case "=":
-				case "sqrt":
+				case "√":
 				case "^":
 
 				Calculate(s);
@@ -112,7 +112,7 @@ public class Calculator : MonoBehaviour {
 				result = Mathf.Pow(x, y);
 				break;
 			case "√":
-				result = Mathf.Sqrt(y);
+				result = Mathf.Sqrt(x);
 				break;
 		}
 
